@@ -1,0 +1,107 @@
+footer {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    position: relative;
+    z-index: -1;
+}
+
+#FooterLeft {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+#FooterLeft #Logo {
+    display: flex;
+    align-items: center;
+}
+
+#FooterLeft #Logo img {
+    height: 50px;
+    width: auto;
+    filter: brightness(0);
+}
+
+#FooterLeft #Logo p {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+#Nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+    max-height: 40px;
+    text-transform: uppercase;
+}
+
+#Nav li {
+    margin-top: 5px;
+}
+
+#Nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#FooterRight {
+    flex-grow: 3;
+    font-size: 2.4em;
+    color: #666666;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#FooterRight a {
+    margin: 0 10px;
+    color: #666666;
+}
+
+#FooterRight a:hover {
+    margin: 0 10px;
+    color: #000000;
+}
+
+
+#signature {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 11px;
+    align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+    #signature {
+        min-height: 100px;
+    }
+    #Nav {
+        margin-left: 30px;
+        width: 200px;
+        max-height: 55px;
+    }
+}
+
+@media (max-width: 900px) {
+    #FooterLeft {
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+        align-items: center;
+    }
+    #Nav {
+        margin-left: 30px;
+    }
+    #FooterRight {
+        justify-content: center;
+        flex-grow: 1;
+    }
+}

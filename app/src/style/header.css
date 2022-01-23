@@ -1,0 +1,74 @@
+header #Logo a {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+header #Logo a img{
+    height: 50px;
+    width: auto;
+    filter: brightness(100);
+}
+
+header #Menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 34px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header #Menu > * {
+    display: inline-block;
+}
+
+header #Menu > ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+header #Menu ul li {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+header #Menu li:hover {
+    color: #92DCE5
+}
+
+header #Menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    header #Menu {
+        display: none;
+    }
+}
+
+
