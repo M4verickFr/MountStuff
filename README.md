@@ -6,7 +6,11 @@ We only have visualization features. If the project would have been in a larger 
 
 ## 👀 Quick overview of our project 
 
+### 🖥️ A computer version
 
+![image](https://user-images.githubusercontent.com/54810120/150698283-f3197a9c-59a7-4ed8-b8dd-2f7999d56dde.png)
+
+### 📱 A phone version
 
 ## 🛠️ How to use 
 
