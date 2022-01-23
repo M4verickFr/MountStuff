@@ -12,7 +12,7 @@ We only have visualization features. If the project would have been in a larger 
 
 ### 📱 A phone version
 
-![image](https://user-images.githubusercontent.com/54810120/150698413-96e75022-0533-402d-8c54-f84c464c2dca.png)
+![image](https://user-images.githubusercontent.com/54810120/150698530-9d5410b7-21c5-4b03-a509-de35a5f047ed.png)
 
 ## 🛠️ How to use 
 
